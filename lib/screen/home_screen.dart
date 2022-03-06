@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:tugas_codehouse2/pages/business_page.dart';
+import 'package:tugas_codehouse2/pages/shop_page.dart';
 import 'package:tugas_codehouse2/pages/home_page.dart';
-import 'package:tugas_codehouse2/pages/school_page.dart';
+import 'package:tugas_codehouse2/pages/news_page.dart';
 
 class HomeScreen extends StatefulWidget {
   const HomeScreen({Key? key}) : super(key: key);
@@ -14,8 +14,8 @@ class _HomeScreenState extends State<HomeScreen> {
   int _selectedIndex = 0;
   static const List<Widget> _widgetOptions = <Widget>[
     HomePage(),
-    BusinessPage(),
-    SchoolPage(),
+    ShopPage(),
+    NewsPage(),
   ];
 
   void _onItemTapped(int index) {

@@ -1,13 +1,13 @@
 import 'package:flutter/material.dart';
 
-class BusinessPage extends StatefulWidget {
-  const BusinessPage({Key? key}) : super(key: key);
+class ShopPage extends StatefulWidget {
+  const ShopPage({Key? key}) : super(key: key);
 
   @override
-  State<BusinessPage> createState() => _BusinessPageState();
+  State<ShopPage> createState() => _ShopPageState();
 }
 
-class _BusinessPageState extends State<BusinessPage> {
+class _ShopPageState extends State<ShopPage> {
   @override
   Widget build(BuildContext context) {
     return Container(
