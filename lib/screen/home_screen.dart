@@ -48,7 +48,6 @@ class _HomeScreenState extends State<HomeScreen> {
         0xFFECECEC,
       ),
       body: _widgetOptions.elementAt(_selectedIndex),
-      
       bottomNavigationBar: BottomNavigationBar(
         items: const <BottomNavigationBarItem>[
           BottomNavigationBarItem(
@@ -56,12 +55,12 @@ class _HomeScreenState extends State<HomeScreen> {
             label: 'Home',
           ),
           BottomNavigationBarItem(
-            icon: Icon(Icons.business),
-            label: 'Business',
+            icon: Icon(Icons.shop),
+            label: 'Shop',
           ),
           BottomNavigationBarItem(
-            icon: Icon(Icons.school),
-            label: 'School',
+            icon: Icon(Icons.book),
+            label: 'News',
           ),
         ],
         currentIndex: _selectedIndex,
